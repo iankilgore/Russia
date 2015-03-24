@@ -3,6 +3,24 @@
   <title>
   </title>
   <link rel="stylesheet" href="russia.css">
+  <script>
+  function showPopup(w,h,name){
+     var popUp = document.getElementById(name);
+
+     popUp.style.top = "0px";
+     popUp.style.left = "0px";
+     popUp.style.width = w + "px";
+     popUp.style.height = h + "px";
+
+
+     popUp.style.visibility = "visible";
+  }
+
+  function hidePopup(name){
+     var popUp = document.getElementById(name);
+     popUp.style.visibility = "hidden";
+  }
+  </script>
 </head>
 <body>
 
@@ -19,10 +37,11 @@ Putin works with a bi-cameras legislative body known as the Duma
 This has been its form of government since 1989 when its communist regime ended after losing a fifty-year conflict with the U.S. Called the Cold War
 Russia spans nine time zones in Eastern Europe/northern Asia
 its population of approximately 144 million people is 9th most in the world
-The main ethnic group of early Russia: The Slavs, who came from the Indo-Europe region and settled on the icy steppes
+The main ethnic group of early Russia: The Slavs, who came from the Indo-Europe region and settled on the icy <a href="#" onclick="showPopup(300,150,'steppes_definition');" >steppes.</a>
 </p>
-<div id="popupdefinition">
+<div id="steppes_definition">
 Stepp: a large area of flat, UN-forested grassland in Siberia or other parts of southeastern Europe
+<center><button onclick="hidePopup('steppes_definition');">Close</button></center>
 </div>
 
 <p>

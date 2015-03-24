@@ -4,8 +4,9 @@ body {
   color: white;
 }
 
-#popupdefinition{
-   visibility: visible;
+#steppes_definition{
+  position: relative;
+   visibility: hidden;
    overflow: hidden;
    border:1px solid;
    background-color:#05dff8;
