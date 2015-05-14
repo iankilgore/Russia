@@ -71,7 +71,7 @@ background-color: #da89aa;
 }
 
 div.def {
-   position: relative;
+   position: fixed;
    visibility: hidden;
    overflow: hidden;
    border:1px solid;
