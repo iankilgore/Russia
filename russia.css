@@ -1,7 +1,7 @@
 body {
-  background-color: #000000;
+  background-color: #ff6613;
   font-family: "Arial Black", Helvetica, sans-serif;
-  color: #00ff00;
+  color: #0000ff;
 }
 #header {
     background-color:black;
@@ -37,7 +37,7 @@ body {
    background-color:#05dff8;
    border:1px solid;
    padding:5px;
-   color:#ff6500;
+   color:#006612;
 }
 
 a:link {
@@ -60,7 +60,7 @@ h2 {
 font-family:"Arial";
 align:"center";
 font-size: 72;
-color: #888888;
+color: #55aaef;
 }
 
 
